@@ -1,16 +1,24 @@
 # DOSW_Lab3
 What is a Maven Archetype?
+
 Es un kit de herramientas que nos permite generar nuestros propios patrones de diseño, donde permite  optimizar el flujo de trabajo de los desarolladores, siendo un camino crucial para el desarollo.
+
 What is the purpose of the maven-archetype-quickstart archetype?
+
 El maven-archetype-quickstart es un tipo de arqetipo para crear una estructura simple de un Proyecto de Java.
 Este arquetipo nos ofrece distintas ventajas como la personalización detallada de Nuestro Proyecto, además, permite una estandarización entre  distintos proyectos, ademas de generarlos  de manera eficaz.
 Este arquetipo nos ofrece distintas ventajas como la personalización detallada de Nuestro Proyecto
+
 What command can be used to create a project based on a Maven archetype?
+
 mvn archetype: generate nos permite generar el Proyecto desde un arquetipo.
+
 What is a pull request in GitHub?
+
 Un pull request es una herramiento que nos permite realizar cambios a una codigo del proyecto, dejando que todos revisen que cambios se realizarán, permitiendo un trabajo fluido, captar errores de manera eficiente.
 
 How do you create a pull request in GitHub?
+
 1. Primero nos dirijimos a la rama correcta, con todos los elementos.
 2. dentro del branc menu, puedo tener todos los elementos, que se realizara el merge.
    <img width="646" height="618" alt="image" src="https://github.com/user-attachments/assets/892f8fd4-b8e7-4e81-8c45-c151690d9639" />
@@ -20,6 +28,7 @@ How do you create a pull request in GitHub?
 5. Revisamos en la pestaña del trabajo para comparar los elementos que se eleminan, cuales se combinan, para escoger el y llegar hacer el merge.Si no soy el dueño de la compañia, puedo necesiar el acceso de este.
 
 How do you approve a pull request in GitHub?
+
 1. Debajo del nombre del repositorio, da click en Pull Requests
 2. En la lista de Pull Requests, clickear en el que se quiera revisar.
 3. En el pull request, dar clic en la opción "archivos cambiados
