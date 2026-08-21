@@ -38,8 +38,12 @@ How do you approve a pull request in GitHub?
 7.Finalmente, dé clic en "Submit Review".
 
 Include the bibliography, using APA format, for the sources consulted to answer the questions above.
+
 Van Der Schelde, G. (2026, 25 febrero). Unleashing the Power of Maven Archetypes - JAVAPRO International. JAVAPRO International. https://javapro.io/2025/09/05/unleashing-the-power-of-maven-archetypes/
+
 Van Zyl, J. (2015, 10 agosto). Apache Maven Archetypes – Maven Archetypes. https://maven.apache.org/archetypes/
+
 https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/approving-a-pull-request-with-required-reviews
+
 Van Zyl, J. (2015b, agosto 10). Apache Maven Archetypes – Maven Archetypes. https://maven.apache.org/archetypes/
 
