@@ -8,6 +8,7 @@ What is the purpose of the maven-archetype-quickstart archetype?
 El maven-archetype-quickstart es un tipo de arqetipo para crear una estructura simple de un Proyecto de Java.
 Este arquetipo nos ofrece distintas ventajas como la personalización detallada de Nuestro Proyecto, además, permite una estandarización entre  distintos proyectos, ademas de generarlos  de manera eficaz.
 Este arquetipo nos ofrece distintas ventajas como la personalización detallada de Nuestro Proyecto
+<img width="718" height="389" alt="image" src="https://github.com/user-attachments/assets/f9dd5b58-6dba-4f39-8d72-fe8c44a14b84" />
 
 What command can be used to create a project based on a Maven archetype?
 
