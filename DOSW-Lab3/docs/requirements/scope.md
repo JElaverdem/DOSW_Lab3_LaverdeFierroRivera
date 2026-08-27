@@ -12,8 +12,7 @@ La gestión tradicional de los torneos deportivos universitarios se realiza medi
 ## 3. Diagrama de Contexto
 
 ### 3.1 Diagrama
-
-![Context Diagram](../uml/context-diagram.png)
+![Context Diagram](../uml/Diagrama%20de%20Contexto.png)
 
 ### 3.2 Actores
 
