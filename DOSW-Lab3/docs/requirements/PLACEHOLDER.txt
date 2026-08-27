@@ -19,7 +19,7 @@ El sistema de Bankify debe tener la capacidad de:
 El sistema de Bankify debe tener:
 
 1. tiempos de respuesta menores a 2 segundos en la carga de vistas y consulta del calendario.
-2. integridad de datos que impida el borrado físico de los torneos y pagos para fines de auditoría.
+2. integridad de datos que impida el borrado físico de los torneos y pagos.
 3. una interfaz web responsiva, accesible desde dispositivos móviles y computadoras de escritorio.
 4. comunicación segura y encriptada para todas las integraciones con la pasarela PSE.
 5. Alta disponibilidad (99.9% uptime) durante las fechas límite de inscripción y pago de equipos.
@@ -72,7 +72,7 @@ El sistema de Bankify debe tener:
 <br>
 3. El sistema recibe la validación del pago desde PSE y actualiza el estado del equipo a "Inscrito". |
 | **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | Se espera como resultado el pago confirmado y la inscripción formalizada. |
+| **Poscondiciones** | Se espera como resultado la confirmación del pago y la inscripción . |
 
 ### 2.4 Requerimiento Funcional 4
 
@@ -89,7 +89,7 @@ El sistema de Bankify debe tener:
 <br>
 3. El sistema exporta y descarga un archivo en formato JSON. |
 | **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | Se espera como resultado el archivo JSON disponible para la auditoría. |
+| **Poscondiciones** | Se espera como resultado el archivo JSON disponible para el Decano. |
 
 ### 2.5 Requerimiento Funcional 5
 
@@ -112,7 +112,7 @@ El sistema de Bankify debe tener:
 Do you identify any requirement that needs to be further detailed? Which one(s)?
 
 Are there any requirements that contradict each other? Which one(s)?
-
+Sí, el requerimiento funcional sobre la inmutabilidad de los torneos.
 If you had to prioritize the requirements, which 2 requirements should be considered the most important and implemented in the first iteration of the project?
 
 Is there any requirement that should not be implemented?
