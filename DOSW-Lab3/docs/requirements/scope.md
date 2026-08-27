@@ -17,9 +17,6 @@ La gestión tradicional de los torneos deportivos universitarios se realiza medi
 
 ### 3.2 Actores
 
-<En el siguiente cuadro, mapee los actores o roles identificados del sistema>
-<El primer rol es de ejemplo>
-
 | Actor / Rol                        |          Descripción              |
 |------------------------------------|:---------------------------------:|
 | Capitan                      | Cliente del sistema que es el estudiante encargado de registrar el equipo, inscribir a los integrantes y gestionar el pago de la tarifa de inscripción.   |
@@ -29,8 +26,6 @@ La gestión tradicional de los torneos deportivos universitarios se realiza medi
 
 ### 3.3 Sistemas externos
 
-<En el siguiente cuadro, mapee los sistemas externos que interactúan con el sistema de Tech-Cup>
-<El primer sistema es de ejemplo>
 
 | Sistema                            |                                    Descripción                                        |
 |------------------------------------|:-------------------------------------------------------------------------------------:|
@@ -50,6 +45,9 @@ Generar reportes de los equipos.
 
 ### 4.2 Fuera del sistema
 Funciones que no realiza (Relacione al menos 3).
+No procesa pagos en efectivo ni transacciones financieras físicas de forma directa.
+No incluye el envío automatizado de notificaciones o alertas por correo electrónico/SMS a los jugadores.
+No gestiona la premiación económica ni la logística de entrega física de trofeos.
 No procesa pagos en efectivo ni transacciones financieras físicas de forma directa.
 No incluye el envío automatizado de notificaciones o alertas por correo electrónico/SMS a los jugadores.
 No gestiona la premiación económica ni la logística de entrega física de trofeos.
