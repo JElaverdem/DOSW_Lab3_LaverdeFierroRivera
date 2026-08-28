@@ -52,11 +52,7 @@ El sistema de Tech-Cup debe tener:
 | **Descripción** | Registro de equipos y estudiantes|
 | **Precondiciones** |Para que el sistema cumpla con este requerimiento, debe existir un torneo creado y en fase de inscripción. |
 | **Actor** | Capitán |
-| **Flujo principal** |1. El actor selecciona inscribir un nuevo equipo.
-<br>
-2. El sistema solicita el nombre del equipo y los códigos de los estudiantes.
-<br>
-3. El sistema asocia los integrantes y deja el equipo en estado "Pendiente de pago". |
+| **Flujo principal** |1. El actor selecciona inscribir un nuevo equipo.<br>2. El sistema solicita el nombre del equipo y los códigos de los estudiantes.<br>3. El sistema asocia los integrantes y deja el equipo en estado "Pendiente de pago". |
 | **Diagrama de caso de uso** | (![Caso2](../uml/Case2.png))|
 | **Poscondiciones** |Se espera como resultado el equipo y sus integrantes registrados exitosamente.|
 
@@ -69,11 +65,7 @@ El sistema de Tech-Cup debe tener:
 | **Descripción** | El sistema debe integrar la pasarela de pagos externa (PSE) para procesar las tarifas de inscripción. |
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, el equipo debe estar registrado en estado "Pendiente de pago". |
 | **Actor** | Capitán / PSE |
-| **Flujo principal** | 1. El actor inicia el proceso de pago.
-<br>
-2. El sistema envía los datos de la transacción a PSE.
-<br>
-3. El sistema recibe la validación del pago desde PSE y actualiza el estado del equipo a "Inscrito". |
+| **Flujo principal** | 1. El actor inicia el proceso de pago.<br>2. El sistema envía los datos de la transacción a PSE.<br>3. El sistema recibe la validación del pago desde PSE y actualiza el estado del equipo a "Inscrito". |
 | **Diagrama de caso de uso** | (![Caso3](../uml/Case3.png))|
 | **Poscondiciones** | Se espera como resultado la confirmación del pago y la inscripción. |
 
