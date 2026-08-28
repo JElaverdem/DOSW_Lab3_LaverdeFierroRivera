@@ -57,7 +57,7 @@ El sistema de Tech-Cup debe tener:
 2. El sistema solicita el nombre del equipo y los códigos de los estudiantes.
 <br>
 3. El sistema asocia los integrantes y deja el equipo en estado "Pendiente de pago". |
-| **Diagrama de caso de uso** | ![Caso2](../uml/Case2.png)|
+| **Diagrama de caso de uso** | (![Caso2](../uml/Case2.png))|
 | **Poscondiciones** |Se espera como resultado el equipo y sus integrantes registrados exitosamente.|
 
 ### 2.3 Requerimiento Funcional 3
@@ -74,7 +74,7 @@ El sistema de Tech-Cup debe tener:
 2. El sistema envía los datos de la transacción a PSE.
 <br>
 3. El sistema recibe la validación del pago desde PSE y actualiza el estado del equipo a "Inscrito". |
-| **Diagrama de caso de uso** | ![Caso3](../uml/Case3.png)|
+| **Diagrama de caso de uso** | (![Caso3](../uml/Case3.png))|
 | **Poscondiciones** | Se espera como resultado la confirmación del pago y la inscripción. |
 
 ### 2.4 Requerimiento Funcional 4
