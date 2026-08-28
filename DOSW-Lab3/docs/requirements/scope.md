@@ -1,9 +1,6 @@
 ## 1. Sistema
 
-* Nombre del sistema: TechCup
-* Objetivo: El sistema tiene como objetivo: ## 1. Sistema
-
-* Nombre del sistema:
+* Nombre del sistema: Tech-Cup
 * Objetivo: El sistema tiene como objetivo: Automatizar y centralizar la gestión de los torneos de fútbol semestrales organizados para los programas de ingeniería, permitiendo el registro de equipos, la validación de estudiantes, el procesamiento de pagos de inscripción y la generación de reportes automáticos para la Decanatura.
 
 ## 2. Problema a resolver
@@ -29,7 +26,6 @@ La gestión tradicional de los torneos deportivos universitarios se realiza medi
 | Sistema                            |                                    Descripción                                        |
 |------------------------------------|:-------------------------------------------------------------------------------------:|
 | PSE                           | Sistema de pagos externa encargada de procesar de forma segura las transacciones monetarias de las inscripciones.    |
-|                                    |                                                                                       |
 
 ## 4. Alcance del sistema
    
@@ -48,5 +44,4 @@ No procesa pagos en efectivo ni transacciones financieras físicas de forma dire
 No incluye el envío automatizado de notificaciones o alertas por correo electrónico/SMS a los jugadores.
 No gestiona la premiación económica ni la logística de entrega física de trofeos.
 No procesa pagos en efectivo ni transacciones financieras físicas de forma directa.
-No incluye el envío automatizado de notificaciones o alertas por correo electrónico/SMS a los jugadores.
-No gestiona la premiación económica ni la logística de entrega física de trofeos.
+
