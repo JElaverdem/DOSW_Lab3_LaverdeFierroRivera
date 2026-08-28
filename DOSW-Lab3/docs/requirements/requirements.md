@@ -39,7 +39,7 @@ El sistema de Tech-Cup debe tener:
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, no debe existir otro torneo activo o en curso.|
 | **Actor** | Organizador|
 | **Flujo principal** | 1. El actor ingresa la opción de crear torneo.<br>2. El sistema solicita la información básica.<br>3. El sistema valida los datos y guarda el torneo en estado pendiente. |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | (![Caso1](../uml/Case1.png))|
 | **Poscondiciones** | El torneo debe de terminar creado y en estado pendiente.|
 
 
@@ -57,7 +57,7 @@ El sistema de Tech-Cup debe tener:
 2. El sistema solicita el nombre del equipo y los códigos de los estudiantes.
 <br>
 3. El sistema asocia los integrantes y deja el equipo en estado "Pendiente de pago". |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | ![Caso2](../uml/Case2.png)|
 | **Poscondiciones** |Se espera como resultado el equipo y sus integrantes registrados exitosamente.|
 
 ### 2.3 Requerimiento Funcional 3
@@ -74,7 +74,7 @@ El sistema de Tech-Cup debe tener:
 2. El sistema envía los datos de la transacción a PSE.
 <br>
 3. El sistema recibe la validación del pago desde PSE y actualiza el estado del equipo a "Inscrito". |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | ![Caso3](../uml/Case3.png)|
 | **Poscondiciones** | Se espera como resultado la confirmación del pago y la inscripción. |
 
 ### 2.4 Requerimiento Funcional 4
@@ -93,7 +93,7 @@ El sistema de Tech-Cup debe tener:
 3. El sistema exporta y descarga un archivo en formato JSON.
 <br>
 4. El sistema envvía el archivo al decano. |
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | |
 | **Poscondiciones** | Se espera como resultado el archivo JSON enviado a el Decano. |
 
 ### 2.5 Requerimiento Funcional 5
@@ -110,7 +110,7 @@ El sistema de Tech-Cup debe tener:
 2. El sistema guarda la programación del partido.
 <br>
 3. Una vez jugado, el actor ingresa el marcador y el sistema actualiza la tabla de resultados.|
-| **Diagrama de caso de uso** | *imagen y link*|
+| **Diagrama de caso de uso** | |
 | **Poscondiciones** | Se espera como resultado el calendario actualizado y los marcadores guardados. |
 
 ## 3. Preguntas
