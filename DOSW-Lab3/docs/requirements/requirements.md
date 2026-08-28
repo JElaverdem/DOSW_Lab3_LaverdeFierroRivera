@@ -31,6 +31,8 @@ El sistema de Tech-Cup debe tener:
 
 ### 2.1 Requerimiento Funcional 1
 
+Mock-Up link: https://www.figma.com/design/fOyeluua0YcoBP3tgUhiSc/Untitled?node-id=0-1&t=4d1I93LvomvFpu5y-1
+
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-01 |
